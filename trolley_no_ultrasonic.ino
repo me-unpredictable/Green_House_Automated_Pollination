@@ -85,6 +85,7 @@ void enable_remote() {
 
 
 void demo1() {
+  Serial.println("1"); // to makesure demo function is called
   if (debug) {
     Serial.println("Inside demo 1 function");
   }
@@ -122,6 +123,7 @@ void demo1() {
 
 
 void demo2() {
+  Serial.println("1"); // to makesure demo function is called
   if (debug) {
     Serial.println("Inside demo 2 function");
   }
@@ -164,6 +166,7 @@ void demo2() {
 
 
 void ddemo() {
+  Serial.println("1"); // to makesure demo function is called
   if (debug) {
     Serial.println("Inside DummyDemo function");
   }
@@ -320,7 +323,7 @@ void loop() {
         if (debug) {
           Serial.println("Special stop call");
         }
-        move_dstop_();
+        move_stop_();
       }
     }
     //================================================================
