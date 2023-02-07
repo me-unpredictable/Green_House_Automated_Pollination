@@ -1,3 +1,4 @@
+//Author : Vishal A. Patel (https://vishalresearch.com)
 const int fwPin = 6; // forward button connection
 const int rvPin =  7; //reverse button connection
 const int fw_pin = 9; //motor fw
